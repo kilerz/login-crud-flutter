@@ -96,7 +96,9 @@ class _LoginPageState extends State<LoginPage> {
                       padding: EdgeInsets.only(
                           top: 4, left: 16, right: 16, bottom: 4),
                       decoration: BoxDecoration(
-                          borderRadius: BorderRadius.all(Radius.circular(50)),
+                          borderRadius: new BorderRadius.only(
+                            topLeft: new Radius.circular(20.0)
+                          ),
                           color: Colors.white,
                           boxShadow: [
                             BoxShadow(color: Colors.black12, blurRadius: 5)
